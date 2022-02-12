@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	margin: auto;
+}
+
+.postcard-header img {
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+}
+h1 {
+	width: 335px;
+	margin-left: 5px;
+	font-family: "Lobster";
+}
+
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	font-family: "Lobster", cursive;
+}
+.body-left-segundop {
+	margin-top: 10px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+.body-right {
+	margin-top: 10px;
+}
+input {
+	border-bottom: 1px solid gray;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+p {
+	font-size: 15px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	padding: 7px;
+	font-family: "Lobster", cursive;
+}
+
+/*
+Dudas , como agregar una fuente externa de google fonts desde css   -> RESUELTO
+
+
+
+*/
